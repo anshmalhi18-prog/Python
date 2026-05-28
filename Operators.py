@@ -1,0 +1,9 @@
+tree1=80
+tree2=150
+tree3=120
+tree4=95
+tree5=140
+sum=tree1+tree2+tree3+tree4+tree5
+avg=sum/5
+print("total height = ",sum)
+print("average = ",avg)
