@@ -1,0 +1,15 @@
+import turtle
+screen = turtle.Screen()
+screen.bgcolor("lightblue")
+screen.title("Python Coding Test - 1: Square")
+t = turtle.Turtle()
+t.shape("turtle")
+t.color("darkgreen", "yellow")
+t.pensize(5)
+t.speed(3)
+t.begin_fill()
+for _ in range(4):
+    t.forward(150)
+    t.left(90)
+t.end_fill()
+screen.exitonclick()
